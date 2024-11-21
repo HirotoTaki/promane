@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+おそらくbootstrapのようなもので、スタイルと適用したい要素に
+あらかじめ用意されているクラスを付与してやることで簡単に
+スタイルを適用することができるやつ。だと思われる。
+後で使い方を調べる必要あり。
+●公式
+https://tailwindcss.com/docs/utility-first
+●Zenn
+https://zenn.dev/var/articles/3cd463f2388a35
+*/
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

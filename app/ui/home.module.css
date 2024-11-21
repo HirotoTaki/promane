@@ -1,0 +1,13 @@
+/* 
+tailwindのようなユーティリティクラスを使用するのではなく、
+要素にピンポイントでスタイルを適用させたい場合にモジュールを
+使用するとよい。と思われる。
+ */
+
+.shape {
+  height: 0;
+  width: 0;
+  border-bottom: 30px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
