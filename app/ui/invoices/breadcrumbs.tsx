@@ -2,6 +2,7 @@ import { clsx } from 'clsx';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 
+// 請求書ごとの請求書詳細ページを表示するためのパンくずリスト作成。
 interface Breadcrumb {
   label: string;
   href: string;
